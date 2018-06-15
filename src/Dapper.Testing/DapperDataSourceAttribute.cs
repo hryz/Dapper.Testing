@@ -4,7 +4,7 @@ using System.Linq;
 using System.Reflection;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
-namespace Lib
+namespace Dapper.Testing
 {
     public class DapperDataSourceAttribute : Attribute, ITestDataSource
     {

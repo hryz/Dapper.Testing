@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Lib
+namespace Dapper.Testing
 {
     public class DryRunException : Exception
     {

@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Lib
+namespace Dapper.Testing
 {
     [AttributeUsage(AttributeTargets.Class, AllowMultiple = true)]
     public class DapperQueryAttribute : Attribute

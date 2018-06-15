@@ -1,6 +1,6 @@
 using System.Threading.Tasks;
 using ClientCode.Products.QueryHandlers;
-using Lib;
+using Dapper.Testing;
 using Microsoft.VisualStudio.TestTools.UnitTesting;
 
 namespace ClientTest

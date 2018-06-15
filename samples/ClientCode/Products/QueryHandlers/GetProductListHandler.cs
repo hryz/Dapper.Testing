@@ -7,7 +7,7 @@ using ClientCode.Products.Queries;
 using ClientCode.Products.ReadModels;
 using ClientCode.Shared;
 using Dapper;
-using Lib;
+using Dapper.Testing;
 using Microsoft.Extensions.Configuration;
 
 namespace ClientCode.Products.QueryHandlers

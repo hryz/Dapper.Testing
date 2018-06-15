@@ -2,13 +2,18 @@
 
   <PropertyGroup>
     <TargetFramework>netstandard2.0</TargetFramework>
-    <Version>0.1.0.0</Version>
+    <Version>0.1.0.1</Version>
     <Authors>Anton Hryzodub</Authors>
     <Company />
     <Description>Checks validity of the SQL queries without actual execution of them</Description>
     <Copyright>Anton Hryzodub</Copyright>
     <GeneratePackageOnBuild>true</GeneratePackageOnBuild>
-    <PackageTags />
+    <PackageTags>Dapper</PackageTags>
+    <PackageProjectUrl>https://github.com/hryz/Dapper.Testing</PackageProjectUrl>
+    <RepositoryUrl></RepositoryUrl>
+    <PackageLicenseUrl>https://raw.githubusercontent.com/hryz/Dapper.Testing/master/LICENSE.md</PackageLicenseUrl>
+    <AssemblyVersion>0.1.0.1</AssemblyVersion>
+    <FileVersion>0.1.0.1</FileVersion>
   </PropertyGroup>
 
   <ItemGroup>

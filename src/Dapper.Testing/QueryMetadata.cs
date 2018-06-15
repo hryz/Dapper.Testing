@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 
-namespace Lib
+namespace Dapper.Testing
 {
     public class QueryMetadata
     {
