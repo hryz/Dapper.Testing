@@ -45,17 +45,17 @@ Therefore, you have a "unit" test per each Dapper query.
 
 ## The query metadata
 The query contains 2 placeholders, one of them can have 4 values.  
-![query_metadata](readme_Images/1.png)
+![query_metadata](readme_images/1.png)
 
 ## The unit test
 This is all you need!  
-![2](readme_Images/2.png)
+![2](readme_images/2.png)
 
 ## The Resharper test runner
 One unit test is generated for each `DapperQuery` attribute.  
 You can see the class name, query name, and placeholder values  
-![3](readme_Images/3.png)
+![3](readme_images/3.png)
 
 ## The Visual Studio test runner
 The same is in the Visual Studio.  
-![4](readme_Images/4.png)
+![4](readme_images/4.png)
