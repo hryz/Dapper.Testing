@@ -1,4 +1,4 @@
-﻿namespace Lib
+﻿namespace Dapper.Testing
 {
     public class QueryContext
     {
