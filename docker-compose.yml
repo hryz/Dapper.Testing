@@ -1,0 +1,20 @@
+version: "3"
+
+services:
+  sqlserver:
+    container_name: 'sqlserver'
+    image: microsoft/mssql-server-linux:latest
+    environment:
+      - ACCEPT_EULA=Y
+      - MSSQL_PID=Developer
+      - SA_PASSWORD=123asdQ#
+    ports:
+      - "1433:1433"
+    volumes:
+    - ./initdb.sql:/scripts/init.sql:ro
+    - ./entrypoint.sh:/entrypoint.sh:ro
+    command: 
+      - /bin/bash
+      - -c
+      - /entrypoint.sh
+        

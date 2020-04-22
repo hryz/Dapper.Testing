@@ -8,7 +8,7 @@ namespace ClientTest
     [TestClass]
     public class DapperTest
     {
-        private const string ConnectionString = "Server=localhost;Database=AdventureWorks2017;Trusted_Connection=True;";
+        private const string ConnectionString = "Server=localhost;Database=AdventureWorks;User Id=SA;Password=123asdQ#;";
 
         [ClassInitialize]
         public static async Task ClassInit(TestContext context)
